@@ -1,15 +1,17 @@
-using System.Collections.Generic;
-using System.Linq;
+using System;
+using UnityEngine;
 
-public class AllSpheresNeededDestroyPattern : IWinCondition
+public class AllSpheresNeededBeDestroyPattern : IWinCondition
 {
-    private IEnumerable<Sphere> _spheres;
+    private SpheresList _spheresList;
 
-    public AllSpheresNeededDestroyPattern(IEnumerable<Sphere> spheres)
+    public AllSpheresNeededBeDestroyPattern(SpheresList spheresList)
     {
-        _spheres = spheres;
+        _spheresList = spheresList;
     }
-
-    public bool CheckWinResult() => _spheres.Count() == 0;
+    public bool CheckWinResult()
+    {
+        return _spheresList.GetCountOfSpheres() == 0;
+    }
 
 }

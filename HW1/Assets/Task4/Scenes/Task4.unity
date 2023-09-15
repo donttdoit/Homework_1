@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 44692408}
   - component: {fileID: 44692407}
   - component: {fileID: 44692406}
-  - component: {fileID: 44692405}
+  - component: {fileID: 44692409}
   m_Layer: 0
   m_Name: RedSphere (1)
   m_TagString: Untagged
@@ -158,18 +158,6 @@ Transform:
   m_Father: {fileID: 1272047752}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &44692405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 44692403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d41468644b77e0e48aadadd8d2ca3b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &44692406
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -233,6 +221,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44692403}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &44692409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44692403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ff19e111263714a9bd0f2c90d9e076, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sphereType: 0
 --- !u!1 &349487318
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,7 +344,7 @@ GameObject:
   - component: {fileID: 373141192}
   - component: {fileID: 373141191}
   - component: {fileID: 373141190}
-  - component: {fileID: 373141189}
+  - component: {fileID: 373141193}
   m_Layer: 0
   m_Name: RedSphere (2)
   m_TagString: Untagged
@@ -366,18 +367,6 @@ Transform:
   m_Father: {fileID: 1272047752}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &373141189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 373141187}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d41468644b77e0e48aadadd8d2ca3b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &373141190
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -441,6 +430,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373141187}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &373141193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373141187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ff19e111263714a9bd0f2c90d9e076, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sphereType: 0
 --- !u!1 &675371396
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +455,7 @@ GameObject:
   - component: {fileID: 675371401}
   - component: {fileID: 675371400}
   - component: {fileID: 675371399}
-  - component: {fileID: 675371398}
+  - component: {fileID: 675371402}
   m_Layer: 0
   m_Name: GreenSphere
   m_TagString: Untagged
@@ -476,18 +478,6 @@ Transform:
   m_Father: {fileID: 1272047752}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &675371398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 675371396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3723f47ef72c4444b991536c45f7c77d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &675371399
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -551,6 +541,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675371396}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &675371402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675371396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ff19e111263714a9bd0f2c90d9e076, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sphereType: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,7 +744,7 @@ GameObject:
   - component: {fileID: 1219744178}
   - component: {fileID: 1219744177}
   - component: {fileID: 1219744176}
-  - component: {fileID: 1219744175}
+  - component: {fileID: 1219744179}
   m_Layer: 0
   m_Name: WhiteSphere
   m_TagString: Untagged
@@ -764,18 +767,6 @@ Transform:
   m_Father: {fileID: 1272047752}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1219744175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1219744173}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faa533bd15f01584f8ed686d2b6ecfcc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &1219744176
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -839,6 +830,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1219744173}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1219744179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219744173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ff19e111263714a9bd0f2c90d9e076, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sphereType: 2
 --- !u!1 &1272047751
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,7 +890,7 @@ GameObject:
   - component: {fileID: 1391436875}
   - component: {fileID: 1391436874}
   m_Layer: 0
-  m_Name: WinConditionChooser
+  m_Name: Bootstrap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -904,7 +908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28835e0c0d074fd42963cd4e77fac7e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sphereStats: {fileID: 1985264750}
+  _spheresList: {fileID: 1985264750}
 --- !u!4 &1391436875
 Transform:
   m_ObjectHideFlags: 0
@@ -932,7 +936,7 @@ GameObject:
   - component: {fileID: 1894897893}
   - component: {fileID: 1894897892}
   - component: {fileID: 1894897891}
-  - component: {fileID: 1894897890}
+  - component: {fileID: 1894897895}
   m_Layer: 0
   m_Name: RedSphere
   m_TagString: Untagged
@@ -940,18 +944,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1894897890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1894897889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d41468644b77e0e48aadadd8d2ca3b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &1894897891
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1030,6 +1022,19 @@ Transform:
   m_Father: {fileID: 1272047752}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1894897895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894897889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ff19e111263714a9bd0f2c90d9e076, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sphereType: 0
 --- !u!1 &1985264747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1041,7 +1046,7 @@ GameObject:
   - component: {fileID: 1985264749}
   - component: {fileID: 1985264750}
   m_Layer: 0
-  m_Name: SphereStats
+  m_Name: SpheresList
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1071,12 +1076,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1985264747}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0023885dad833448896666e9c566304, type: 3}
+  m_Script: {fileID: 11500000, guid: bc22c6fe5a122a0418fa7205f285ef61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _spheres:
-  - {fileID: 1894897890}
-  - {fileID: 44692405}
-  - {fileID: 373141189}
-  - {fileID: 1219744175}
-  - {fileID: 675371398}
+  - {fileID: 1894897895}
+  - {fileID: 44692409}
+  - {fileID: 373141193}
+  - {fileID: 1219744179}
+  - {fileID: 675371402}

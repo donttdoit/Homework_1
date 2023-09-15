@@ -1,19 +1,23 @@
+using System;
 using System.Linq;
 
 public class OnlyOneColorWinPattern : IWinCondition
 {
-    private SphereStats _sphereStats;
-    private Sphere _winColorSphere;
+    private SpheresList _spheresList;
+    private SphereType _winSphereType;
 
-    public OnlyOneColorWinPattern(SphereStats sphereStats, Sphere winColorSphere)
+    public OnlyOneColorWinPattern(SpheresList spheresList, SphereType winSphereType)
     {
-        _sphereStats = sphereStats;
-        _winColorSphere = winColorSphere;
+        _spheresList = spheresList;
+        _winSphereType = winSphereType;
     }
+
+    
+
     public bool CheckWinResult()
     {
-        bool IsOnlyOneColorWin = !_sphereStats.Spheres.Any(sphere => sphere.GetType() == _winColorSphere.GetType());
-        
+        bool IsOnlyOneColorWin = !_spheresList.Spheres.Any(sphere => sphere.SphereType == _winSphereType);
+
         return IsOnlyOneColorWin;
     }
 }
